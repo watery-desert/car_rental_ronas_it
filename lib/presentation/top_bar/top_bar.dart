@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class BuildToBar extends StatelessWidget {
   const BuildToBar({Key? key}) : super(key: key);
@@ -18,8 +18,7 @@ class BuildToBar extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Icon(
-                // FontAwesomeIcons.mapPin,
-                Icons.place,
+                FontAwesomeIcons.mapPin,
                 color: Colors.redAccent.withOpacity(0.8),
               ),
             ),
@@ -49,8 +48,7 @@ class BuildToBar extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Icon(
-                // FontAwesomeIcons.gripLines,
-                Icons.drag_handle_rounded
+                FontAwesomeIcons.gripLines,
               ),
             ),
           ],

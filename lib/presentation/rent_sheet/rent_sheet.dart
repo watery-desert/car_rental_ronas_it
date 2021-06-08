@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'dart:math' as math;
 import 'dart:typed_data';
 
@@ -93,8 +93,7 @@ class RenetSheet extends StatelessWidget {
           ),
           _buildLocationTile(
               Icon(
-                // FontAwesomeIcons.mapPin
-                Icons.place,
+                FontAwesomeIcons.mapPin,
                 color: Colors.redAccent.withOpacity(0.8),
               ),
               'Parker Rd. Allentown'),
@@ -108,8 +107,7 @@ class RenetSheet extends StatelessWidget {
           ),
           _buildLocationTile(
               Icon(
-                // FontAwesomeIcons.mapPin,
-                Icons.place,
+                FontAwesomeIcons.mapPin,
 
                 color: Colors.black.withOpacity(0.5),
               ),
@@ -121,19 +119,18 @@ class RenetSheet extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 _buildInfo(
-                  // FontAwesomeIcons.map,
-Icons.map,
+                  FontAwesomeIcons.map,
 
                   '8 km',
                 ),
                 _buildInfo(
-                  // FontAwesomeIcons.clock,
-                  Icons.schedule,
+                  FontAwesomeIcons.clock,
+
                   '24 min',
                 ),
                 _buildInfo(
-                  // FontAwesomeIcons.dollarSign,
-                  Icons.attach_money,
+                  FontAwesomeIcons.dollarSign,
+
                   '3.83',
                 ),
               ],
@@ -273,8 +270,7 @@ Icons.map,
                   borderRadius: BorderRadius.circular(16),
                 ),
                 child: Icon(
-                  // FontAwesomeIcons.arrowLeft,
-                  Icons.arrow_back,
+                  FontAwesomeIcons.arrowLeft,
                   color: Colors.black.withOpacity(0.9),
                   size: 18,
                 ),

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class MapsTopBar extends StatelessWidget {
   final Animation<Offset> leftOffsetAnimation;
@@ -25,8 +25,7 @@ class MapsTopBar extends StatelessWidget {
             SlideTransition(
               position: leftOffsetAnimation,
               child: Icon(
-                // FontAwesomeIcons.userCircle,
-                Icons.account_circle,
+                FontAwesomeIcons.userCircle,
                 size: 36,
               ),
             ),
@@ -51,8 +50,7 @@ class MapsTopBar extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Icon(
-                      // FontAwesomeIcons.productHunt,
-                      Icons.directions_car,
+                      FontAwesomeIcons.productHunt,
                     ),
                     Text(
                       'Parking spots',
