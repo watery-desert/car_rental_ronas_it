@@ -17,7 +17,7 @@ I have not implemented anything in this app. This is a bare bones project I have
 [Ronas IT](https://dribbble.com/shots/14028450-Car-Rental-App-Design-Concept/attachments/5645274?mode=media) & [Ilya Sablin](https://dribbble.com/shots/14416016-Car-Rental-Mobile-App-Design-Concept)
 
 ## Social Media Link
-[Follow me on instagram](https://www.instagram.com/watery_desert/reels/)
+[Follow me on instagram](https://www.instagram.com/watery_desert)
 
 
 
