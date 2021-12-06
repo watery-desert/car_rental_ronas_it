@@ -1,10 +1,8 @@
-<img src="assets/car_rental.png"  width="500"/>
-
-
 # car_rental_ronas_it
 
 Taxi rental app using flutter. Add Google maps api key.
 
+<img src="https://raw.githubusercontent.com/watery-desert/assets/main/car_rental_ronas_it/screen_recording.gif"  width="300"/>
 
 
 
